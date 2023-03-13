@@ -89,8 +89,8 @@ body{
     color: hsl(0, 0%, 100%);
 }
 
-.cart-button :first-child{
-    margin-right: 5px;
+.cart-button > img:first-child{
+    margin-right: 10px;
 }
 
 .cart-button:hover{
@@ -115,7 +115,7 @@ body{
     .card img:nth-child(2){
         display: flex;
     }
-    .card img:nth-child(1){
+    .card > img:nth-child(1){
         display: none;
     }
     
@@ -135,7 +135,4 @@ body{
         margin-top: 20px;
     }
 
-    .cart-button:first-child{
-        margin-right: 10px;
-    }
 }
